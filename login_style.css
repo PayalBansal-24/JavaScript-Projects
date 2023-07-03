@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.close_eye{
+    display:flex;
+    float:right;
+    width:25px;
+    margin-top:-25px;
+    margin-right:10px;
+}
+
+.login_form #email_err, 
+.login_form #pass_err{
+        margin-top: 5px;
+        width: 618px;
+        font-size: 15px;
+        color: #c62828;
+        background: rgba(255 0, 0 ,0.1);
+        text-align: center;
+        padding: 5px 8px;
+        border-radius: 3px;
+        border: 1px solid #EA9A9A;
+        display: none;
+}
